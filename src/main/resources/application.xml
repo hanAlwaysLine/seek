@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/jdbc
+        http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        " >
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+    <!-- 采用注解的方式配置bean -->
+    <context:annotation-config />
+    <!-- 配置要扫描的包 -->
+    <context:component-scan base-package="*"></context:component-scan>
+    <!-- 引入外部属性文件 -->
+    <context:property-placeholder location="classpath*:jdbc.properties"/>
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.jdbcUrl}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!-- 队列中的最小等待数 -->
+        <property name="minIdle" value="${jdbc.minPoolSize}"/>
+        <!-- 队列中的最大等待数 -->
+        <property name="maxIdle" value="${jdbc.maxIdleTime}"/>
+        <!-- 最长等待时间，单位毫秒 -->
+        <property name="maxWait" value="${jdbc.maxWait}"/>
+        <!-- 初始化个数 -->
+        <property name="initialSize" value="${jdbc.initialPoolSize}"/>
+    </bean>
+    <!-- 配置mybatis的SqlSessionFactoryBean -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:cn/manage/mapping/*.xml"></property>
+    </bean>
+    <!-- mapper接口所在包名，Spring会自动查找其下的类 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="cn.manage.mapper" />
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+    </bean>
+
+    <!-- 事务配置 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- jdbc初始化数据库 -->
+<!--    <jdbc:initialize-database data-source="dataSource" ignore-failures="NONE" enabled="${jdbc.initializedatabase}">
+        <jdbc:script encoding="utf-8" location="/WEB-INF/db-init.sql"/>
+    </jdbc:initialize-database>-->
+
+
+</beans>

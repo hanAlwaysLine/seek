@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace和定义的Mapper接口对应，并实现其中的方法 -->
+<mapper namespace="cn.manage.mapper.WifeMapper">
+   <resultMap type="cn.manage.bean.Wife" id="wifeResultMap">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+   </resultMap>
+   <!-- id和mapper接口中的方法名对应，resultMap使用mybatis.xml中的别名 -->
+   <select id="getWife" resultMap="wifeResultMap">
+              select * from wife
+   </select>     
+</mapper>
