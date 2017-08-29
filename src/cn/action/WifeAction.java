@@ -24,6 +24,7 @@ public class WifeAction extends ActionSupport {
 		System.out.println("action");
 		System.out.println(list.size());
 		System.out.println("action");
+
 		return "success";
 	}
 
