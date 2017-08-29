@@ -17,6 +17,17 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/test" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapping" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapper" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/action" />
+        </sourceRoots>
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
@@ -38,6 +49,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/action" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
