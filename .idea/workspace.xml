@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f15118-475c-48a5-b878-4ab8485c7c70" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/sfds/asdw" afterPath="" />
+    <list default="true" id="c4f15118-475c-48a5-b878-4ab8485c7c70" name="Default" comment="ff">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/front/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/image/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/js/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/vujs/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../iworkspace/seek/seek.iml" afterPath="$PROJECT_DIR$/../../iworkspace/seek/seek.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/../../iworkspace/seek/out/" />
     <ignored path="$PROJECT_DIR$/../../iworkspace/seek/target/" />
@@ -18,7 +23,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WifeAction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WifeAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -30,6 +35,56 @@
                 <marker date="1503988169750" expanded="false" signature="800:805" ph=" { " />
                 <marker date="1503988169750" expanded="false" signature="817:820" ph=" }" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/front/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/vujs/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/js/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/image/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,45 +102,45 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="152">
+              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding>
-                <marker date="1503989525369" expanded="true" signature="94608:94624" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94608:94642" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94608:94655" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94608:94670" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94705:97000" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94718:96985" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94772:95161" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94791:95146" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94909:95126" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94949:95092" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="94970:95070" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95211:95520" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95230:95505" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95307:95485" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95347:95451" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95368:95429" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95571:95836" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95590:95821" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95623:95801" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95663:95767" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95684:95745" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95879:96185" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95898:96170" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="95972:96150" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96012:96116" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96033:96094" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96236:96582" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96255:96567" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96330:96547" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96370:96513" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96391:96491" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96634:96971" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96653:96956" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96758:96936" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96798:96902" ph="..." />
-                <marker date="1503989525369" expanded="true" signature="96819:96880" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96865:96881" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96865:96899" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96865:96912" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96865:96927" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96962:99257" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="96975:99242" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97029:97418" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97048:97403" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97166:97383" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97206:97349" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97227:97327" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97468:97777" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97487:97762" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97564:97742" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97604:97708" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97625:97686" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97828:98093" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97847:98078" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97880:98058" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97920:98024" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="97941:98002" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98136:98442" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98155:98427" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98229:98407" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98269:98373" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98290:98351" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98493:98839" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98512:98824" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98587:98804" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98627:98770" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98648:98748" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98891:99228" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="98910:99213" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="99015:99193" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="99055:99159" ph="..." />
+                <marker date="1503989686630" expanded="true" signature="99076:99137" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,52 +175,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WifeMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WifeMapperService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WifeMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,6 +182,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -217,6 +227,7 @@
         <option value="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/sfds/asdw" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html" />
       </list>
     </option>
   </component>
@@ -321,6 +332,118 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fronttest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vujs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -379,16 +502,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../iworkspace/seek" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\iworkspace\seek\src\main\webapp\image" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\js" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\vujs" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\WEB-INF\front" />
       <recent name="F:\iworkspace\seek\src\cn\manage\mapping" />
-      <recent name="F:\iworkspace\seek\src\main\java\cn\manage\mapping" />
-      <recent name="F:\iworkspace\seek\src\main\resources" />
-      <recent name="F:\iworkspace\seek\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -895,7 +1020,7 @@
       <workItem from="1503737387895" duration="1030000" />
       <workItem from="1503885920426" duration="11019000" />
       <workItem from="1503972711005" duration="1879000" />
-      <workItem from="1503974700336" duration="9162000" />
+      <workItem from="1503974700336" duration="9341000" />
     </task>
     <task id="LOCAL-00001" summary="未完成版">
       <created>1503886525317</created>
@@ -1093,14 +1218,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503989503267</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="ff">
+      <created>1503989565644</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1503989565644</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54340000" />
+    <option name="totallyTimeSpent" value="54519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1125,7 +1258,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7855974" sideWeight="0.88275343" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16868381" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16868381" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1186,89 +1319,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <marker date="1503989525369" expanded="true" signature="94608:94624" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94642" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94655" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94670" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94705:97000" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94718:96985" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94772:95161" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94791:95146" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94909:95126" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94949:95092" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94970:95070" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95211:95520" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95230:95505" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95307:95485" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95347:95451" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95368:95429" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95571:95836" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95590:95821" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95623:95801" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95663:95767" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95684:95745" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95879:96185" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95898:96170" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95972:96150" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96012:96116" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96033:96094" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96236:96582" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96255:96567" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96330:96547" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96370:96513" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96391:96491" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96634:96971" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96653:96956" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96758:96936" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96798:96902" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96819:96880" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1596,45 +1646,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="152">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding>
-            <marker date="1503989525369" expanded="true" signature="94608:94624" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94642" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94655" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94608:94670" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94705:97000" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94718:96985" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94772:95161" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94791:95146" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94909:95126" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94949:95092" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="94970:95070" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95211:95520" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95230:95505" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95307:95485" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95347:95451" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95368:95429" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95571:95836" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95590:95821" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95623:95801" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95663:95767" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95684:95745" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95879:96185" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95898:96170" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="95972:96150" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96012:96116" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96033:96094" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96236:96582" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96255:96567" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96330:96547" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96370:96513" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96391:96491" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96634:96971" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96653:96956" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96758:96936" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96798:96902" ph="..." />
-            <marker date="1503989525369" expanded="true" signature="96819:96880" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96865:96881" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96865:96899" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96865:96912" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96865:96927" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96962:99257" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="96975:99242" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97029:97418" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97048:97403" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97166:97383" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97206:97349" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97227:97327" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97468:97777" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97487:97762" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97564:97742" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97604:97708" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97625:97686" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97828:98093" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97847:98078" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97880:98058" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97920:98024" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="97941:98002" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98136:98442" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98155:98427" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98229:98407" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98269:98373" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98290:98351" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98493:98839" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98512:98824" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98587:98804" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98627:98770" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98648:98748" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98891:99228" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="98910:99213" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="99015:99193" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="99055:99159" ph="..." />
+            <marker date="1503989686630" expanded="true" signature="99076:99137" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1674,6 +1724,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/front/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/vujs/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/js/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/image/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
