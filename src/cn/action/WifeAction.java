@@ -15,6 +15,7 @@ public class WifeAction extends ActionSupport {
 
 	@Autowired
 	private WifeMapperService wifeMapperService;
+
 	private List<Wife> list = new ArrayList<Wife>();
 
 
