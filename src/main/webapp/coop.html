@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/flexslider.css">
     <link rel="stylesheet" type="text/css" href="css/iview.css">
+    <link rel="stylesheet" type="text/css" href="css/hyx_coop.css">
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="vujs/vue.min.js"></script>
@@ -139,14 +141,14 @@
     </div>
     <!--header end-->
 
-    <div class="content" style="width: 1150px; margin: 0 auto">
-        <img src="image/contentTop.jpg" style="margin: 10px 0">
-        <div id="card1" style="margin-top: 20px">
+    <div class="contentCoop">
+        <img src="image/contentTop.jpg" class="imgTop">
+        <div id="card1" class="card1">
             <div v-for="card in cards">
-                <div style="float:left; width: 250px; margin-right: 30px; margin-bottom: 30px">
+                <div class="cards">
                     <Card>
-                        <div style="width: 250px; height: 100px;"><img :src="card.src" style="width: 80%;"></div>
-                        <p style="width: 210px; height: 130px; overflow: hidden; text-overflow: ellipsis; margin: 0px 15px 0px 0px;">
+                        <div class="cardDiv"><img :src="card.src" class="cardDivImg"></div>
+                        <p class="cardP">
                             {{card.text}}
                         </p>
                     </Card>
