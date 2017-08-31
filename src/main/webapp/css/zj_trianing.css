@@ -1,0 +1,79 @@
+.blackG{
+    width: 1150px;
+    height: 220px;
+    margin-left: 100px;
+}
+
+.contrast {
+    width: 1150px;
+    height: 800px;
+    float: left;
+    margin-left: 240px;
+}
+.enterprise {
+    width: 1150px;
+    height: 500px;
+}
+.safeguard {
+    width: 1150px;
+    height: 300px;
+}
+.p1 {
+    font-size: 22px;
+    text-align: center;
+    color:black;
+    float: left;
+}
+.text1{
+    clear: both;
+    font-size: 20px;
+    width: 800px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.text2{
+    color: black;
+    font-size: 20px;
+    width: 800px;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.text3{
+    clear: both;
+    color: black;
+    font-size: 20px;
+    width: 800px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.p2{
+    font-size: 24px;
+    text-align: center;
+    color:black;
+    float: left;
+}
+
+.a1{ font-size: 15px;
+    text-align: center;
+    color:black;
+    float: left;
+    margin-top: 20px;
+    margin-right: 400px;}
+.a2{
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    float: left;
+    margin-top: 10px;
+    margin-right: 400px;
+}
+.a3{
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 400px;
+    color:black;
+}
