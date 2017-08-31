@@ -350,12 +350,11 @@
                             data:this.formValidate,
                             dataType:'text',
                             success:function (data) {
-
+                                alert('提交成功!');
                             }
-                        })
-                        this.$Message.success('提交成功!');
+                        });
                     } else {
-                        this.$Message.error('表单验证失败!');
+                        alert('表单验证失败!');
                     }
                 })
             },
