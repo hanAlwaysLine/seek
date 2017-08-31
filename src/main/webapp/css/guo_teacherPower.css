@@ -1,0 +1,156 @@
+
+    .nav {
+        width: 1200px;
+        height: 120px;
+        margin: 0 auto;
+    }
+    .nav_logo {
+        width: 120px;
+    }
+    .nav_logo img {
+        width: 120px;
+    }
+    .nav_title {
+        width: 300px;
+        padding: 0 40px;
+    }
+    .nav_title h2 {
+        color: steelblue;
+    }
+
+    .nav_menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav_menu ul li {
+        float: left;
+    }
+
+    .nav_menu ul li a {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 900;
+        font-family: "微软雅黑";
+        text-align: center;
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 5px;
+        padding-top: 3px;
+        border-bottom: 3px solid rgba(0, 0, 0, 0);
+        color: #222222;
+    }
+
+    .nav_menu ul li a:hover {
+        color: dodgerblue;
+        border-bottom: 3px solid royalblue;
+    }
+
+
+    .teacher_one{
+
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .teacher{
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+
+    .footer{
+        width: 100%;
+        height: 450px;
+        background: #fff url(../image/footer.jpg) no-repeat 50% 0;
+    }
+    .footer_box{
+        position: relative;
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .footer_box nav{
+        overflow: hidden;
+    }
+    .footer_box nav dl{
+        float: left;
+        width: 17.5%;
+        min-width: 130px;
+        padding-top: 75px;
+        margin-right: 60px;
+    }
+    .footer_box nav dl dt{
+        position: relative;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #9fa0a1;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .footer_box nav dl  dt b{
+        position: absolute;
+        display: block;
+        width: 39%;
+        height: 3px;
+        left: 0;
+        bottom: -2px;
+        background-color: #fff;
+    }
+    .footer_box nav dl dd{
+        line-height: 30px;
+        display: block;
+        margin-left: 0;
+    }
+    .footer_box nav dl dd a{
+        font-family: "微软雅黑";
+        font-size: 16px;
+        color: #bbb;
+        border: 0;
+        text-decoration: none;
+    }
+    .footer_box nav dl dd a:hover{
+        text-decoration: underline;
+    }
+    .copyright{
+        width: 1100px;
+        margin-top: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .copyright p{
+        line-height: 30px;
+        font-size: 14px;
+        color: #bbb;
+    }
+    .copyright_sign{
+        width: 1100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .wechat{
+        position: absolute;
+        width: 140px;
+        height: auto;
+        top: 100px;
+        right: 0;
+    }
+    .wechat img{
+        width: 124px;
+        height: 124px;
+    }
+    .wechat p{
+        color: #bbb;
+        line-height: 24px;
+        text-align: center;
+    }
