@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/iview.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <script type="text/javascript" src="vujs/vue.min.js"></script>
+    <script type="text/javascript" src="vujs/iview.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header_content">
+        <div class="logo">
+            <img src="image/logo.png" width="120px" height="120px">
+        </div>
+        <div class="company_name">
+            倾城科技教育集团
+        </div>
+        <div class="header_menu" id="header_menu">
+            <i-menu mode="horizontal" theme="light" class="header_menu_menu">
+                <a href="courseDescription.html" target="_parent">
+                    <Menu-Item name="1">
+                        课程介绍
+                    </Menu-Item>
+                </a>
+                <a href="techers.html" target="_parent">
+                    <Menu-Item name="2">
+                        师资力量
+                    </Menu-Item>
+                </a>
+                <a href="#" target="_parent">
+                    <Menu-Item name="3">
+                        学员天地
+                    </Menu-Item>
+                </a>
+                <a href="#" target="_parent">
+                    <Menu-Item name="4">
+                        定岗实训
+                    </Menu-Item>
+                </a>
+                <a href="joinMe.html" target="_parent">
+                    <Menu-Item name="5">
+                        报名了解
+                    </Menu-Item>
+                </a>
+                <a href="coop.html" target="_parent">
+                    <Menu-Item name="6">
+                        合作企业
+                    </Menu-Item>
+                </a>
+                <a href="#" target="_parent">
+                    <Menu-Item name="7">
+                        关于倾城
+                    </Menu-Item>
+                </a>
+            </i-menu>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var menu = new Vue({
+        el: '#header_menu',
+    })
+</script>
+</html>

@@ -4,70 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/iview.css">
-    <script type="text/javascript" src="js/vue.min.js"></script>
-    <script type="text/javascript" src="js/iview.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="vujs/vue.min.js"></script>
+    <script type="text/javascript" src="vujs/iview.min.js"></script>
     <style>
         html, body {
             padding: 0;
             margin: 0;
         }
 
-        a {
+        a{
             color: black;
         }
-
-        .header {
-            width: 100%;
-            height: 120px;
-        }
-
-        .header_content {
-            width: 1200px;
-            height: 120px;
-            margin: 0 auto;
-        }
-
-        .logo {
-            width: 120px;
-            height: 120px;
-            float: left;
-        }
-
-        .company_name {
-            width: 380px;
-            height: 120px;
-            float: left;
-            font-size: 40px;
-            line-height: 120px;
-            text-align: center;
-        }
-
-        .header_menu {
-            width: 700px;
-            height: 120px;
-            float: left;
-        }
-
-        .header_menu_menu {
-            margin-top: 30px;
-        }
-
-        .header_menu_menu li {
-            font-size: 15px;
-            font-weight: bolder;
-        }
-
-        .ivu-menu-horizontal.ivu-menu-light:after {
-            background: none;
-        }
-
         .content {
             width: 100%;
             margin: 0 auto;
             min-height: 500px;
         }
-
         .carousel {
             width: 100%;
         }
@@ -96,7 +48,7 @@
             padding-top: 30px;
         }
 
-        .system_show,scheme_show {
+        .system_show,.scheme_show {
             margin: 0 auto;
             width: 1200px;
             padding-top: 60px;
@@ -121,75 +73,40 @@
             background: #A08AB9;
         }
 
-        .system_img_title {
+        .system_img_title{
             text-align: center;
             width: 188px;
             height: 22px;
             font-size: 20px;
         }
+        .scheme_img_title{
+            text-align: center;
+            width: 236px;
+            height: 29px;
+            font-size: 20px;
+        }
+        .scheme_show_content{
+            float: left;
+            margin-left: 51px;
+            width: 236px;
+            height: 300px;
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 <body>
-<div class="header">
-    <div class="header_content">
-        <div class="logo">
-            <img src="image/logo.png" width="120px" height="120px">
-        </div>
-        <div class="company_name">
-            倾城科技教育集团
-        </div>
-        <div class="header_menu" id="header_menu">
-            <i-menu mode="horizontal" theme="light" class="header_menu_menu">
-                <a href="#">
-                    <Menu-Item name="1">
-                        课程介绍
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="2">
-                        师资力量
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="3">
-                        学员天地
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="4">
-                        定岗实训
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="5">
-                        报名了解
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="6">
-                        合作企业
-                    </Menu-Item>
-                </a>
-                <a href="#">
-                    <Menu-Item name="7">
-                        关于倾城
-                    </Menu-Item>
-                </a>
-            </i-menu>
-        </div>
-    </div>
-</div>
+<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" src="header.html"></iframe>
 <div class="content">
     <div class="carousel" id="carousel">
         <Carousel autoplay autoplay-speed="4000">
             <Carousel-Item>
-                <img src="image/img-gallery.jpg" width="100%">
+                <img src="image/img-gallery.jpg" width="100%" style="min-width: 1200px">
             </Carousel-Item>
             <Carousel-Item>
-                <img src="image/img-gallery2.jpg" width="100%">
+                <img src="image/img-gallery2.jpg" width="100%" style="min-width: 1200px">
             </Carousel-Item>
             <Carousel-Item>
-                <img src="image/img-gallery3.jpg" width="100%">
+                <img src="image/img-gallery3.jpg" width="100%" style="min-width: 1200px">
             </Carousel-Item>
         </Carousel>
     </div>
@@ -234,7 +151,30 @@
                     <a href="#">
                         <div class="scheme_img">
                             <img src="image/ganan1.jpg">
-
+                        </div>
+                        <div class="scheme_img_title">服装鞋帽电商解决方案</div>
+                    </a>
+                </div>
+                <div class="scheme_show_content">
+                    <a href="#">
+                        <div class="scheme_img">
+                            <img src="image/ganan2.jpg">
+                        </div>
+                        <div class="scheme_img_title">服装鞋帽电商解决方案</div>
+                    </a>
+                </div>
+                <div class="scheme_show_content">
+                    <a href="#">
+                        <div class="scheme_img">
+                            <img src="image/ganan3.jpg">
+                        </div>
+                        <div class="scheme_img_title">服装鞋帽电商解决方案</div>
+                    </a>
+                </div>
+                <div class="scheme_show_content">
+                    <a href="#">
+                        <div class="scheme_img">
+                            <img src="image/ganan4.jpg">
                         </div>
                         <div class="scheme_img_title">服装鞋帽电商解决方案</div>
                     </a>
@@ -243,14 +183,9 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <div></div>
-</div>
+<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" height="450" src="footer.html"></iframe>
 </body>
 <script>
-    var menu = new Vue({
-        el: '#header_menu',
-    })
     var carousel = new Vue({
         el: '#carousel',
     })
