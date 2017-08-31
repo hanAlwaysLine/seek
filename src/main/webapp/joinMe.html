@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>报名了解</title>
+
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/iview.css">
+    <link rel="stylesheet" type="text/css" href="css/hyx_joinMe.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="vujs/vue.min.js"></script>
+    <script type="text/javascript" src="vujs/iview.min.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        .SitBackToTop {
+            display: none;
+            position: fixed;
+            width: 40px;
+            height: 20px;
+        }
+
+        .main {
+            width: 100%;
+            position: relative;
+        }
+
+        .nav {
+            width: 1200px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .nav_logo {
+            width: 120px;
+        }
+
+        .nav_logo img {
+            width: 120px;
+        }
+
+        .nav_title {
+            width: 300px;
+            padding: 0 40px;
+        }
+
+        .nav_title h2 {
+            color: steelblue;
+        }
+
+        .nav_menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav_menu ul li {
+            float: left;
+        }
+
+        .nav_menu ul li a {
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: "微软雅黑";
+            text-align: center;
+            width: 90px;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 5px;
+            padding-top: 3px;
+            border-bottom: 3px solid rgba(0, 0, 0, 0);
+            color: #222222;
+        }
+
+        .nav_menu ul li a:hover {
+            color: dodgerblue;
+            border-bottom: 3px solid royalblue;
+        }
+    </style>
+</head>
+
+<body>
+<div id="SiteBackToTop" class="SitBackToTop"></div>
+<div id="main" class="main">
+
+    <!--header start-->
+    <div class="nav">
+        <table>
+            <tr>
+                <td>
+                    <div class="nav_logo">
+                        <img src="image/倾城科技.png"/>
+                    </div>
+                </td>
+                <td>
+                    <div class="nav_title">
+                        <h2>倾城科技教育集团</h2>
+                    </div>
+                </td>
+                <td>
+                    <div class="nav_menu">
+                        <ul id="menu">
+                            <li>
+                                <a href="#">课程介绍</a>
+                            </li>
+                            <li>
+                                <a href="#">师资力量</a>
+                            </li>
+                            <li>
+                                <a href="#">关于倾城</a>
+                            </li>
+                            <li>
+                                <a href="#">定岗实训</a>
+                            </li>
+                            <li>
+                                <a href="coop.html">合作企业</a>
+                            </li>
+                            <li>
+                                <a href="#">学员天地</a>
+                            </li>
+                            <li>
+                                <a href="joinMe.html">报名了解</a>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--header end-->
+
+
+    <div class="contentJoinMe">
+        <div id="carousel1" class="carousel1">
+            <Carousel autoplay>
+                <Carousel-Item>
+                    <img src="image/01-1.jpg">
+                </Carousel-Item>
+                <Carousel-Item>
+                    <img src="image/01-2.jpg">
+                </Carousel-Item>
+                <Carousel-Item>
+                    <img src="image/01-3.jpg">
+                </Carousel-Item>
+                <Carousel-Item>
+                    <img src="image/01-4.jpg">
+                </Carousel-Item>
+            </Carousel>
+        </div>
+        <div id="form1" class="form1">
+            <i-form ref="formValidate" :model="formValidate" :rules="ruleValidate" :label-width="80">
+                <Form-Item label="姓名" prop="name" >
+                    <i-input v-model="formValidate.name" placeholder="请输入姓名"></i-input>
+                </Form-Item>
+                <Form-Item label="性别" prop="gender">
+                    <Radio-Group v-model="formValidate.gender">
+                        <Radio label="male">男</Radio>
+                        <Radio label="female">女</Radio>
+                    </Radio-Group>
+                </Form-Item>
+                <Form-Item label="电话" prop="telephone">
+                    <i-input v-model="formValidate.telephone" placeholder="请输入电话"></i-input>
+                </Form-Item>
+                <Form-Item label="学校" prop="school">
+                    <i-input v-model="formValidate.school" placeholder="请输入学校"></i-input>
+                </Form-Item>
+                <Form-Item label="专业" prop="major">
+                    <i-input v-model="formValidate.major" placeholder="请输入专业"></i-input>
+                </Form-Item>
+                <Form-Item label="邮箱" prop="mail">
+                    <i-input v-model="formValidate.mail" placeholder="请输入邮箱"></i-input>
+                </Form-Item>
+                <Form-Item>
+                    <i-button type="primary" @click="handleSubmit('formValidate')">提交</i-button>
+                    <i-button type="ghost" @click="handleReset('formValidate')" style="margin-left: 8px">重置</i-button>
+                </Form-Item>
+            </i-form>
+        </div>
+    </div>
+
+
+    <!--footer部分 start-->
+    <div class="footer" style="clear: both">
+        <div class="footer_box">
+            <!--<h2>
+                    </h2>-->
+            <nav>
+                <dl>
+                    <dt>
+                        联系我们
+                        <b></b>
+                    </dt>
+                    <dd>
+                        <a href="#" title="公司简介" target="_blank">公司简介</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="公司新闻" target="_blank">公司新闻</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="媒体报道" target="_blank">媒体报道</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="联系我们" target="_blank">联系我们</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="成为合作伙伴" target="_blank">成为合作伙伴</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        软件产品
+                        <b></b>
+                    </dt>
+                    <dd>
+                        <a href="#" title="B2C商城系统" target="_blank">B2C商城系统</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="B2B2C商城系统" target="_blank">B2B2C商城系统</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="移动商城系统" target="_blank">移动商城系统</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="微信商城系统" target="_blank">微信商城系统</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="电商呼叫中心系统" target="_blank">电商呼叫中心系统</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        解决方案
+                        <b></b>
+                    </dt>
+                    <dd>
+                        <a href="#" title="整体解决方案" target="_blank">整体解决方案</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="O2O解决方案" target="_blank">O2O解决方案</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="微分销解决方案" target="_blank">微分销解决方案</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="农产品解决方案" target="_blank">农产品解决方案</a>
+                    </dd>
+                    <dd>
+                        <a href="#" title="商超电商解决方案" target="_blank">商超电商解决方案</a>
+                    </dd>
+                </dl>
+            </nav>
+            <div class="copyright">
+                <p>咨询热线：400-666-3775/010-61775746&nbsp;&nbsp;&nbsp;京ICP备05028939号&nbsp;&nbsp;&nbsp;&copy; 2000-2016
+                    中软国际有限公司 All rights reserved.</p>
+                <p class="copyright_sign">
+                    <a href="#" target="_blank">
+                        <img src="image/copyr.gif"/>
+                    </a>
+                </p>
+            </div>
+
+            <!--translate部分 start-->
+            <div class="translate">
+                <div class="translate-item translate-zh ">
+                    <div class=translate-text style="font-weight: 500">
+                        中
+                    </div>
+                </div>
+                <div class="translate-item translate-en">
+                    <div class=translate-text>
+                        E
+                    </div>
+                </div>
+            </div>
+            <!--translate部分 end-->
+
+            <div class="wechat">
+                <p>
+                    <img src="image/WeChat.png"/>
+                </p>
+                <p>
+                    官方微信扫一扫
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--footer部分 end-->
+</div>
+</body>
+<script>
+    var carousel = new Vue({
+        el: '#carousel1'
+    })
+
+    var form = new Vue({
+        el: '#form1',
+        data: {
+            formValidate: {
+                name: '',
+                gender: '',
+                telephone: '',
+                school: '',
+                major: '',
+                mail: ''
+            },
+            ruleValidate: {
+                name: [
+                    {required: true, message: '姓名不能为空', trigger: 'blur'}
+                ],
+                gender: [
+                    {required: true, message: '请选择性别', trigger: 'change'}
+                ],
+                telephone: [
+                    {required: true, message: '电话不能为空', trigger: 'blur'}
+                ],
+                school: [
+                    {required: true, message: '学校不能为空', trigger: 'blur'}
+                ],
+                major: [
+                    {required: true, message: '专业不能为空', trigger: 'blur'}
+                ],
+                mail: [
+                    {required: true, message: '邮箱不能为空', trigger: 'blur'},
+                    {type: 'email', message: '邮箱格式不正确', trigger: 'blur'}
+                ]
+            }
+        },
+        methods: {
+            handleSubmit: function (name) {
+                this.$refs[name].validate(function (valid) {
+                    if (valid) {
+                        $.ajax({
+                            url:'',
+                            type:'post',
+                            data:this.formValidate,
+                            dataType:'text',
+                            success:function (data) {
+                                alert('提交成功!');
+                            }
+                        });
+                    } else {
+                        alert('表单验证失败!');
+                    }
+                })
+            },
+            handleReset: function (name) {
+                this.$refs[name].resetFields();
+            }
+        }
+    })
+</script>
+</html>
