@@ -16,7 +16,31 @@
     top: expression(documentElement.scrollTop + "px");
     z-index: 9999;
 }
+.fl_l{
+    position:absolute;
+    position:fixed;
+    z-index:9999;
+    list-style: none;
+    width: 100px;
+    float: left;
+    margin-left: -40px;
+    border: 1px solid #f4f4f4;
+    background: #fff;
 
+}
+.fl_l li a{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    display: block;
+    color: #333;
+    font-size: 14px;
+    line-height: 60px;
+    text-decoration:none;
+}
+.fl_l li.active a{
+    background: #f60;
+    color: #fff;
+}
 /*.c1{
 	var a = document.getElementById("c1");
 	a.href = 'd2';  
