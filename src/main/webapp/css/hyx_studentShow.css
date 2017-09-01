@@ -1,0 +1,137 @@
+.contentStudentShow {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background: none;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+ul, li, dl, ol {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.box {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.bcon {
+    width: 800px;
+    border: 1px solid #eee;
+    margin: 30px auto;
+}
+
+.bcon h1 {
+    border-bottom: 1px solid #eee;
+    padding: 0 10px;
+}
+
+.bcon h1 b {
+    font: bold 14px/40px '宋体';
+    border-top: 2px solid #3492D1;
+    padding: 0 8px;
+    margin-top: -1px;
+    display: inline-block;
+}
+
+.list_lh {
+    height: 400px;
+    overflow: hidden;
+}
+
+.list_lh li {
+    padding: 10px;
+}
+
+.list_lh li.lieven {
+    background: #F0F2F3;
+}
+
+.list_lh li p {
+    height: 50px;
+    line-height: 24px;
+}
+
+.list_lh li p a {
+    float: left;
+    font: bold 30px '楷体';
+    text-align: center;
+}
+
+.list_lh li p em {
+    width: 80px;
+    font: normal 12px/24px Arial;
+    color: #FF3300;
+    float: right;
+    display: inline-block;
+}
+
+.list_lh li p span {
+    color: #999;
+    float: right;
+}
+
+.list_lh li p a.btn_lh {
+    background: #28BD19;
+    height: 17px;
+    line-height: 17px;
+    color: #fff;
+    padding: 0 5px;
+    margin-top: 4px;
+    display: inline-block;
+    float: right;
+}
+
+.btn_lh:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btm p {
+    font: normal 12px/24px 'Microsoft YaHei';
+    text-align: center;
+}
+b{
+    margin-left: 10px;
+}
+.h1b {
+    margin-left: 50px;
+}
+.h1b2 {
+    margin-left: 200px;
+}
+.h1b3 {
+    margin-left: 130px;
+}
+.pa1 {
+    margin-left: 15px;
+}
+.pa2 {
+    margin-left: 65px;
+}
+.pa3 {
+    margin-left: 50px;
+}
+.pa4 {
+    margin-left: 100px;
+}
+.pa5 {
+    margin-left: 45px;
+    color: red;
+}
