@@ -1,10 +1,48 @@
 
+
+
+    .teacher_top{
+        width: 1200px;
+        height: 230px;
+        margin-left: 75px;
+        background-image: url("../image/teacher_top.jpg");
+    }
+    .teacher_logo{
+        font-size: 80px;
+        color:white;
+        margin-left: 100px;
+        padding-bottom: 50px;
+    }
+    .teacher_logo2{
+        font-size: 80px;
+        color:white;
+        margin-left: 360px;
+    }
+
+
+
+
+
+
     .teacher_one{
+
         float: left;
         width: 300px;
-        height: 300px;
         margin-left: 100px;
+        cursor:pointer;
     }
+
     .teacher{
-        margin-bottom: 100px;
+        margin-top: 40px;
+    }
+    .teacher img{
+        width: 300px;
+        height: 210px;
+    }
+    .teacher_name{
+        text-align: center;
+    }
+    .teacher_introduce{
+        width: 300px;
+        height: 200px;
     }
