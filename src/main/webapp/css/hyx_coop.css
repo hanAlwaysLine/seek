@@ -1,0 +1,37 @@
+.contentCoop {
+
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.imgTop {
+    margin: 10px 0;
+}
+
+.card1 {
+    margin-top: 20px;
+}
+
+.cards {
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cardDiv {
+    width: 250px;
+    height: 100px;
+}
+
+.cardDivImg {
+    width: 80%;
+}
+
+.cardP {
+    width: 210px;
+    height: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px 15px 0px 0px;
+}
