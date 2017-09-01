@@ -6,9 +6,11 @@
 
 .contrast {
     width: 1150px;
-    height: 800px;
+    height: 1000px;
     float: left;
+    margin-top: 30px;
     margin-left: 240px;
+
 }
 .enterprise {
     width: 1150px;
@@ -16,13 +18,7 @@
 }
 .safeguard {
     width: 1150px;
-    height: 300px;
-}
-.p1 {
-    font-size: 22px;
-    text-align: center;
-    color:black;
-    float: left;
+    height: 500px;
 }
 .text1{
     clear: both;
@@ -41,23 +37,16 @@
     margin-left: 95px;
 }
 .text3{
-    clear: both;
     color: black;
     font-size: 20px;
-    width: 800px;
-    height: 300px;
+    width: 1200px;
+    height: 450px;
     margin-top: 10px;
-    margin-left: 95px;
+    margin-left: -170px;
 }
-.p2{
-    font-size: 24px;
-    text-align: center;
-    color:black;
-    float: left;
-}
-
 .a1{ font-size: 15px;
     text-align: center;
+    /*font-weight:bold;*/
     color:black;
     float: left;
     margin-top: 20px;
@@ -65,15 +54,32 @@
 .a2{
     font-size: 15px;
     text-align: center;
+    /*font-weight:bold;*/
     color:black;
     float: left;
     margin-top: 10px;
     margin-right: 400px;
 }
-.a3{
-    font-size: 15px;
+.product{
+    width: 1200px;
+    height: 380px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+.thumbnail{
+    width: 350px;
+    height: 300px;
     float: left;
-    margin-top: 20px;
-    margin-right: 400px;
-    color:black;
+    margin-left: 30px;
+}
+.overflow {
+    font-size: 24px;
+    color: #2b85e4;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+}
+li{
+    list-style: none;
 }
