@@ -15,6 +15,7 @@ public class WifeAction extends ActionSupport {
 
 	@Autowired
 	private WifeMapperService wifeMapperService;
+
 	private List<Wife> list = new ArrayList<Wife>();
 
 
@@ -23,6 +24,7 @@ public class WifeAction extends ActionSupport {
 		list = wifeMapperService.getWife();
 		System.out.println("action");
 		System.out.println(list.size());
+		System.out.println("action");
 		return "success";
 	}
 

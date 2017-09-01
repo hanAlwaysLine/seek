@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>课程介绍</title>
+    <link rel="stylesheet" type="text/css" href="css/iview.css">
+    <script type="text/javascript" src="vujs/vue.min.js"></script>
+    <script type="text/javascript" src="vujs/iview.min.js"></script>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" src="header.html"></iframe>
+    <div class="content" id="content" style="width: 1150px;margin: 0 auto">
+        <div class="contentleft" id="contentleft" style="min-height: 500px;width: 150px;float: left">
+            <i-menu theme="light" active-name="1" width="150px" @on-select="menu">
+                <Menu-Item name="1">
+                    <Icon type="ios-book-outline"></Icon>
+                    课程简介
+                </Menu-Item>
+                <Menu-Item name="2">
+                    <Icon type="ios-list-outline"></Icon>
+                    课程大纲
+                </Menu-Item>
+            </i-menu>
+        </div>
+        <div id="contentright" class="contentright" style="min-height: 500px;width: 1000px;float: left;">
+            <div id="jieshao" v-if="seen">awdad</div>
+            <div id="dagang" v-else>asdasd</div>
+        </div>
+    </div>
+    <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"  width="100%" height="450" src="footer.html"></iframe>
+</body>
+<script>
+    var contentleft=new Vue({
+        el:'#contentleft',
+        data:{
+            theme:'light',
+        },
+        methods:{
+            menu:function (name) {
+                contentright.show(name);
+            }
+        }
+    })
+    var contentright=new Vue({
+        el:'#contentright',
+        data:{
+            seen:true
+        },
+        methods:{
+            show:function (name) {
+                if(name=='1'){
+                    this.seen=true;
+                }else{
+                    this.seen=false;
+                }
+            }
+        }
+    })
+</script>
+</html>
