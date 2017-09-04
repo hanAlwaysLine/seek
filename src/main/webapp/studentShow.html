@@ -127,11 +127,13 @@
                         </p>
                     </li>
                     <li>
-                        <a class="pa1">张XX</a>
-                        <a class="pa2">22</a>
-                        <a class="pa3">大专</a>
-                        <a class="pa4">沈阳XXXX有限公司</a>
-                        <a class="pa5">5000</a>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
                     </li>
                 </ul>
             </div>
@@ -144,13 +146,13 @@
         src="footer.html"></iframe>
 </body>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $('.list_lh li:even').addClass('lieven');
     })
-    $(function(){
+    $(function () {
         $("div.list_lh").myScroll({
-            speed:40, //数值越大，速度越慢
-            rowHeight:68 //li的高度
+            speed: 40, //数值越大，速度越慢
+            rowHeight: 68 //li的高度
         });
     });
 </script>
