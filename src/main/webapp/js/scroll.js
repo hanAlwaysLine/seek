@@ -1,5 +1,16 @@
 // JavaScript Document
 (function ($) {
+    $(document).ready(function () {
+        $('.list_lh li:even').addClass('lieven');
+    })
+
+    $(function () {
+        $("div.list_lh").myScroll({
+            speed: 40, //数值越大，速度越慢
+            rowHeight: 68 //li的高度
+        });
+    });
+
     $.fn.myScroll = function (options) {
         //默认配置
         var defaults = {

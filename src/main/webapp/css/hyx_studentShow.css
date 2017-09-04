@@ -10,7 +10,7 @@
 }
 
 body {
-    background: none;
+
 }
 
 input, button, select, textarea {
@@ -22,8 +22,19 @@ ul, li, dl, ol {
 }
 
 a {
-    color: #666;
     text-decoration: none;
+}
+
+.contentleft {
+    min-height: 500px;
+    width: 150px;
+    float: left
+}
+
+.contentright {
+    min-height: 500px;
+    width: 1000px;
+    float: left;
 }
 
 .box {
@@ -70,16 +81,24 @@ a {
 
 .list_lh li p a {
     float: left;
-    font: bold 30px '楷体';
+    font: bold 30px '华文隶书';
     text-align: center;
 }
 
-.list_lh li p em {
-    width: 80px;
-    font: normal 12px/24px Arial;
-    color: #FF3300;
-    float: right;
-    display: inline-block;
+b {
+    margin-left: 10px;
+}
+
+.h1b {
+    margin-left: 50px;
+}
+
+.h1b2 {
+    margin-left: 200px;
+}
+
+.h1b3 {
+    margin-left: 130px;
 }
 
 .list_lh li p span {
@@ -103,35 +122,66 @@ a {
     text-decoration: none;
 }
 
-.btm p {
-    font: normal 12px/24px 'Microsoft YaHei';
-    text-align: center;
-}
-b{
-    margin-left: 10px;
-}
-.h1b {
-    margin-left: 50px;
-}
-.h1b2 {
-    margin-left: 200px;
-}
-.h1b3 {
-    margin-left: 130px;
-}
 .pa1 {
+    color: #666;
     margin-left: 15px;
 }
+
 .pa2 {
+    color: #666;
     margin-left: 65px;
 }
+
 .pa3 {
+    color: #666;
     margin-left: 50px;
 }
+
 .pa4 {
+    color: #666;
     margin-left: 100px;
 }
+
 .pa5 {
     margin-left: 45px;
     color: red;
+}
+
+.students {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.student {
+    width: 850px;
+    height: 350px;
+    margin: 20px auto;
+    background: url("../image/bg.jpg") 0px 0px;
+}
+
+.title {
+    font: bold 40px '华文楷体';
+    margin-left: 100px;
+}
+
+.studentImg {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.studentText {
+    margin: 30px 0px 20px 130px;
+    float: left;
+    width: 350px;
+    height: 300px;
+}
+
+.studentText a {
+    font: bold 20px '楷体';
+    display: block;
+    width: 350px;
+    word-wrap: break-word;
+    color: gray;
 }

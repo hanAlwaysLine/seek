@@ -22,138 +22,191 @@
 <body>
 <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" src="header.html"></iframe>
 <div class="contentStudentShow">
-    <div class="box">
-        <div class="bcon">
-            <h1><b>学员姓名</b><b class="h1b">年龄</b><b class="h1b">学历</b><b class="h1b2">就业单位</b><b class="h1b3">薪资</b></h1>
-            <div class="list_lh">
-                <ul>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <a class="pa1">张XX</a>
-                            <a class="pa2">22</a>
-                            <a class="pa3">大专</a>
-                            <a class="pa4">沈阳XXXX有限公司</a>
-                            <a class="pa5">5000</a>
-                        </p>
-                    </li>
-                </ul>
+
+    <div class="contentleft" id="contentleft">
+        <i-menu theme="light" active-name="1" width="150px" @on-select="menu">
+            <Menu-Item name="1">
+                <Icon type="ios-book-outline"></Icon>
+                学员就业
+            </Menu-Item>
+            <Menu-Item name="2">
+                <Icon type="ios-list-outline"></Icon>
+                学习氛围
+            </Menu-Item>
+        </i-menu>
+    </div>
+    <div id="contentright" class="contentright" >
+
+        <div class="box" v-if="seen">
+            <div class="bcon">
+                <h1><b>学员姓名</b><b class="h1b">年龄</b><b class="h1b">学历</b><b class="h1b2">就业单位</b><b class="h1b3">薪资</b>
+                </h1>
+                <div class="list_lh">
+                    <ul>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="pa1">张XX</a>
+                                <a class="pa2">22</a>
+                                <a class="pa3">大专</a>
+                                <a class="pa4">沈阳XXXX有限公司</a>
+                                <a class="pa5">5000</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-
+        <div class="students" v-else>
+            <div class="student">
+                <div style="float: left">
+                    <img src="image/study.jpg" class="studentImg">
+                </div>
+                <div class="studentText">
+                    <p class="title">学习氛围</p>
+                    <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
+                </div>
+            </div>
+            <div class="student">
+                <div style="float: left">
+                    <img src="image/study.jpg" class="studentImg">
+                </div>
+                <div class="studentText">
+                    <p class="title">学习氛围</p>
+                    <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" height="450"
         src="footer.html"></iframe>
 </body>
 <script>
-    $(document).ready(function () {
-        $('.list_lh li:even').addClass('lieven');
+    var contentleft = new Vue({
+        el: '#contentleft',
+        data: {
+            theme: 'light',
+        },
+        methods: {
+            menu: function (name) {
+                contentright.show(name);
+            }
+        }
     })
-    $(function () {
-        $("div.list_lh").myScroll({
-            speed: 40, //数值越大，速度越慢
-            rowHeight: 68 //li的高度
-        });
-    });
+    var contentright = new Vue({
+        el: '#contentright',
+        data: {
+            seen: true
+        },
+        methods: {
+            show: function (name) {
+                if (name == '1') {
+                    this.seen = true;
+                } else {
+                    this.seen = false;
+                }
+            }
+        }
+    })
 </script>
 </html>
