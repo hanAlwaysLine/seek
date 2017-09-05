@@ -17,9 +17,25 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java/cn" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/action" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapper" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapping" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/test" />
+        </sourceRoots>
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
+          <fileset id="s2fileset" name="My Fileset " removed="false">
+            <file>file://$MODULE_DIR$/src/main/resources/struts.xml</file>
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.24.1/struts2-core-2.3.24.1.jar!/struts-default.xml</file>
+            <file>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-spring-plugin/2.3.24.1/struts2-spring-plugin-2.3.24.1.jar!/struts-plugin.xml</file>
+          </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
       </facet>
@@ -38,6 +54,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/cn/action" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -78,5 +95,7 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.37" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib-nodep:3.1" level="project" />
   </component>
 </module>
