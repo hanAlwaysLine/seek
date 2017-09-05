@@ -17,6 +17,7 @@ public class WifeAction extends ActionSupport {
 
 	@Autowired
 	private WifeMapperService wifeMapperService;
+
 	private List<Wife> list = new ArrayList<Wife>();
 
 
@@ -36,6 +37,10 @@ public class WifeAction extends ActionSupport {
 		wifeMapperService.saveWife(map);
 		return "wife";
 	}
+
+	public int deleteWife() {
+	    return wifeMapperService.deleteWife(1);
+    }
 
 
 

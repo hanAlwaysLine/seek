@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>课程介绍</title>
+    <link rel="stylesheet" type="text/css" href="css/iview.css">
+    <script type="text/javascript" src="vujs/vue.min.js"></script>
+    <script type="text/javascript" src="vujs/iview.min.js"></script>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        .ht {
+            height: 70px;
+            background: url(image/course_hd.png) no-repeat center center;
+            font-size: 28px;
+            text-align: center;
+            line-height: 70px;
+            margin-bottom: 45px;
+        }
+
+        .timeline {
+            width: 1000px;
+        }
+
+        .timeline-content {
+            margin-left: 100px;
+            width: 900px;
+        }
+
+        .timeline-content_txt {
+            border: 1px solid #F4F4F4;
+            border-radius: 3px;
+            width: 760px;
+            margin-left: 30px;
+            padding: 20px;
+        }
+
+        .timeline-content_txt_title {
+            color: red;
+        }
+
+        .timeline-content_txt:hover {
+            padding-bottom: 25px;
+            padding-top: 15px;
+            box-shadow:0 0 2px #000;
+        }
+        .dagang_table_content{
+            width: 950px;
+            margin: 0 auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .dagang_table_content_th,.dagang_table_content_td{
+            padding: 5px;
+        }
+        .centerbold{
+            text-align: center;
+            font-weight: bolder;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" src="header.html"></iframe>
+<div class="content" id="content" style="width: 1150px;margin: 0 auto">
+    <div class="contentleft" id="contentleft" style="min-height: 500px;width: 150px;float: left">
+        <i-menu theme="light" active-name="1" width="150px" @on-select="menu">
+            <Menu-Item name="1">
+                <Icon type="ios-book-outline"></Icon>
+                课程简介
+            </Menu-Item>
+            <Menu-Item name="2">
+                <Icon type="ios-list-outline"></Icon>
+                课程大纲
+            </Menu-Item>
+        </i-menu>
+    </div>
+    <div id="contentright" class="contentright" style="min-height: 500px;width: 1000px;float: left;">
+        <div id="jieshao" v-if="seen">
+            <div class="jieshao_cintent">
+                <h2 class="ht">JavaEE课程设计理念</h2>
+                <div class="timeline" id="timeline">
+                    <Timeline class="timeline-content">
+                        <Timeline-Item>
+                            <div class="timeline-content_txt">
+                                <h1 class="timeline-content_txt_title">夯实基础</h1>
+                                <div class="timeline-content_txt_content">
+                                    一栋大楼最重要的就是地基，JavaEE课程体系最重要的就是Java基础，经过十年的沉淀,Java基础课程从张孝祥老师创建传智播客以来在逐步的优化和完善，内容涵盖了Java基础所有知识点，共包括计算机基础知识、编程基础、面向对象、常用类介绍、集合、IO、多线程、网络编程、反射、jdbc与MySql数据库等11个章节。夯实的基础知识为JavaEE企业项目开发奠定坚实的基础。
+                                </div>
+                            </div>
+                        </Timeline-Item>
+                        <Timeline-Item>
+                            <div class="timeline-content_txt">
+                                <h1 class="timeline-content_txt_title">由浅入深</h1>
+                                <div class="timeline-content_txt_content">
+                                    我们的学生大多数是零基础，我们采用由浅入深的思想进行课程设计来保证学生的学习吸收效果。通常一个知识点最开始都会设计快速入门，之后再讲解详细的工作原理及各各特性。通过快速入门使学生对该知识点的应用会有基本的认识，并且对学习该知识点没有压力感，非常有利于学习吸收。通过工作原理的详细学习学生会对知识点各各特性的关系及作用从整体上把握，最后学生通过案例练习形成自己的知识体系，最终掌握知识点的应用方法。
+                                </div>
+                            </div>
+                        </Timeline-Item>
+                        <Timeline-Item>
+                            <div class="timeline-content_txt">
+                                <h1 class="timeline-content_txt_title">真实案例</h1>
+                                <div class="timeline-content_txt_content">
+                                    课程的目标是学生灵活运用所学知识进行企业项目开发，我们会针对知识点的不同特性设计贴近企业项目的案例，案例的选材是从真实的企业项目中提取，需要根据知识点的特性来设计案例的内容，从而实现学完知识点后独立完成案例的目标。当学生独立完成案例的开发基本就具备了企业项目开发的基础，最后学生通过阶段综合案例、项目实战达到融会贯通。
+                                </div>
+                            </div>
+                        </Timeline-Item>
+                        <Timeline-Item>
+                            <div class="timeline-content_txt">
+                                <h1 class="timeline-content_txt_title">项目实战</h1>
+                                <div class="timeline-content_txt_content">
+                                    项目是整个JavaEE课程体系中最重要的阶段，项目课程是对所有知识点学习的检验，项目课程中也会讲解一些当前流行的框架和技术，
+                                    最重要的是项目课程中融入了很多项目实战内容，项目实战就是要求学生独立根据需求文档及设计文档完成功能的开发，学生在掌握了基础理论之后通过项目实战会真正掌握一个完整的项目从需求分析、设计、编码、测试、上线维护等整个开发流程，学生毕业即可进入企业进行项目开发。
+                                </div>
+                            </div>
+                        </Timeline-Item>
+                    </Timeline>
+                </div>
+            </div>
+        </div>
+        <div id="dagang" v-else>
+            <h2 class="ht">JavaEE课程大纲</h2>
+            <table class="dagang_table_content" border="1">
+                <tr>
+                    <th class="dagang_table_content_th">所处阶段</th>
+                    <th class="dagang_table_content_th">主讲内容</th>
+                    <th class="dagang_table_content_th">技术要点</th>
+                    <th class="dagang_table_content_th">学习目标</th>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td centerbold" rowspan="6">1阶段：<br>Java语言入门</td>
+                    <td class="dagang_table_content_td">1.计算机基础知识</td>
+                    <td class="dagang_table_content_td">1.计算机基础；2.DOS常用命令；3.Java概述；4.JDK环境安装配置；5.环境变量配置；6.Java程序入门</td>
+                    <td class="dagang_table_content_td" rowspan="6">可掌握的核心能力：
+                        <br>（1）能够掌握DOS系统常用基本命令；
+                        <br>（2）熟练使用eclipse编写java代码；
+                        <br>（3）熟练使用java语言的常用对象；
+                        <br>（4）使用java编写单机应用程序；
+                        <br>（5）掌握面向对象编程思想，为以后深入学习JavaEE就业课程打下坚实的基础。
+                        <br>
+                        <br>可解决的现实问题：
+                        <br>学生具备Java基础，为JavaEE就业班的学习打下基础。
+                        <br>市场价值：
+                        <br>具备Java语言编程基础，但是还不能达到企业的用人标准。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">2.编程基础</td>
+                    <td class="dagang_table_content_td">1.常量与变量；2.数据类型；3.运算符；4.流程控制语句；5.方法；6.数组</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">3.面向对象</td>
+                    <td class="dagang_table_content_td">1.面向对象思想；2.类与对象；3.成员变量和局部变量；4.封装；5.this关键字；6.构造方法</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">4.常用类</td>
+                    <td class="dagang_table_content_td">1.Object类；2.Scanner类；3.Random类；4.String；5.StringBuilder类</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">5.集合</td>
+                    <td class="dagang_table_content_td">1.集合概述；2.集合特点；3.ArrayList集合</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">6.IO</td>
+                    <td class="dagang_table_content_td">1.字符输入流；2.字符输出流；3.字符缓冲输入流；4.字符缓冲输出流；5.复制文件；6.集合与文件中数据相互读写</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td centerbold" rowspan="11">2阶段：<br>Java语言进阶</td>
+                    <td class="dagang_table_content_td">1.面向对象</td>
+                    <td class="dagang_table_content_td">1.匿名对象；2.继承；3.多态；4.抽象类；5.接口；6.内部类</td>
+                    <td class="dagang_table_content_td" rowspan="11">可掌握的核心能力：
+                        <br>（1）掌握常用数据结构和算法；
+                        <br>（2）熟练使用java语言的常用对象；
+                        <br>（3）使用java编写单机应用程序；
+                        <br>（4）掌握面向对象编程思想，为以后深入学习JavaWEB课程打下坚实的基础。
+                        <br>
+                        <br>可解决的现实问题：
+                        <br>学生具备JavaSE本地应用开发能力，能够在本机开发一些应用软件，为学习JavaWeb项目开发打下基础。
+                        <br>
+                        <br>市场价值：
+                        <br>熟练掌握JavaSE本地开发课程后，可满足java软件开发行业的初级需求，根据市场反馈数据薪资可达4000元/月。
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">2.异常</td>
+                    <td class="dagang_table_content_td">1.异常概述；2.异常分类；3.异常处理方案；4.自定义异常</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">3.常用类</td>
+                    <td class="dagang_table_content_td">1.基本包装类；2.正则表达式；3.System类；4.Date；5.DateFormat类；6.Calendar类</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">4.集合</td>
+                    <td class="dagang_table_content_td">1.Collection接口下的常用集合；2.Iterator接口；3.泛型；4.Map接口下的常用集合</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">5.IO</td>
+                    <td class="dagang_table_content_td">1.文件；2.字节流；3.字节缓冲流；4.转换流；5.序列话流</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">6.多线程</td>
+                    <td class="dagang_table_content_td">1.多线程运行原理；2.多线程的实现方案；3.线程生命周期；4.线程同步；5.线程池</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">7.网络编程</td>
+                    <td class="dagang_table_content_td">1.网络编程三要素；2.Socket原理机制；3.UDP传输；4.TCP传输</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">8.反射</td>
+                    <td class="dagang_table_content_td">1.类加载机制原理；2.反射构造方法、字段、方法；3.Properties配置文件</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">9.XML</td>
+                    <td class="dagang_table_content_td">1.XML基本语法；2.XML的约束；3.XML的解析；4.BeanUtils的使用</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">10.注解及动态代理</td>
+                    <td class="dagang_table_content_td">1.注解的使用；2.自定义注解；3.动态代理Proxy；4.类加载器</td>
+                </tr>
+                <tr>
+                    <td class="dagang_table_content_td">11.Mysql及JDBC开发</td>
+                    <td class="dagang_table_content_td">1.MySQL数据库；2.JDBC开发；3.连接池；4.DBUtils；5.JDBC事物管理</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" height="450"
+        src="footer.html"></iframe>
+</body>
+<script>
+    var contentleft = new Vue({
+        el: '#contentleft',
+        data: {
+            theme: 'light',
+        },
+        methods: {
+            menu: function (name) {
+                contentright.show(name);
+            }
+        }
+    })
+    var contentright = new Vue({
+        el: '#contentright',
+        data: {
+            seen: true
+        },
+        methods: {
+            show: function (name) {
+                if (name == '1') {
+                    this.seen = true;
+                } else {
+                    this.seen = false;
+                }
+            }
+        }
+    })
+    var timeline = new Vue({
+        el: '#timeline',
+    })
+</script>
+</html>
