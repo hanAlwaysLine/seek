@@ -8,13 +8,16 @@
     <!-- 指定默认编码集 ，作用于HttpServletRequest的setCharacterEncoding（）和freemarker，vilocity的输出 -->
     <constant name="struts.i18n.encoding" value="UTF-8"/>
     <!-- 当struts配置文件修改时是否自动加载 -->
-    <constant name="struts.configuration.xmlreload" value="true"/>
-    <!-- 开发模式下打印详细的错误信息，默认为false -->
-    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.configuration.xml.reload" value="true"/>
+
+    <!--开启感叹号-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
 
     <package name="test" namespace="/u" extends="struts-default" >
-        <action name="save" class="cn.action.WifeAction">
+        <action name="wife" class="cn.action.WifeAction" >
             <result name="success">/index.jsp</result>
+            <result name="wife">/index.jsp</result>
         </action>
     </package>
+
 </struts>

@@ -18,15 +18,15 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java/cn" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/action" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapper" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" />
+          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapping" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
           <root url="file://$MODULE_DIR$/src/main/test" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/manage" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapping" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapper" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/bean" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/manage/mapperservice" />
-          <root url="file://$MODULE_DIR$/src/main/java/cn/action" />
         </sourceRoots>
       </configuration>
       <facet type="Struts2" name="Struts 2">
@@ -95,5 +95,7 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.37" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.6.10" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib-nodep:3.1" level="project" />
   </component>
 </module>
