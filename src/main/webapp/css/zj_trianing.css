@@ -6,29 +6,27 @@
 
 .contrast {
     width: 1150px;
-    height: 800px;
+    height: 1000px;
     float: left;
-    margin-left: 240px;
+    margin-top: 30px;
+    margin-left: 280px;
+
 }
 .enterprise {
     width: 1150px;
     height: 500px;
+    margin-top: 90px;
 }
 .safeguard {
     width: 1150px;
-    height: 300px;
-}
-.p1 {
-    font-size: 22px;
-    text-align: center;
-    color:black;
-    float: left;
+    height: 500px;
+    margin-top: 25px;
 }
 .text1{
     clear: both;
     font-size: 20px;
     width: 800px;
-    height: 250px;
+    height: 200px;
     margin-top: 30px;
     margin-left: 95px;
 }
@@ -37,43 +35,65 @@
     font-size: 20px;
     width: 800px;
     height: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 95px;
 }
 .text3{
-    clear: both;
     color: black;
     font-size: 20px;
-    width: 800px;
-    height: 300px;
+    width: 1200px;
+    height: 450px;
     margin-top: 10px;
-    margin-left: 95px;
+    margin-left: -170px;
 }
-.p2{
-    font-size: 24px;
-    text-align: center;
-    color:black;
-    float: left;
-}
-
 .a1{ font-size: 15px;
-    text-align: center;
     color:black;
-    float: left;
-    margin-top: 20px;
-    margin-right: 400px;}
+}
 .a2{
     font-size: 15px;
-    text-align: center;
     color:black;
-    float: left;
-    margin-top: 10px;
-    margin-right: 400px;
 }
-.a3{
-    font-size: 15px;
-    float: left;
-    margin-top: 20px;
-    margin-right: 400px;
-    color:black;
+.product{
+    width: 1200px;
+    height: 450px;
+
+    margin-top: 250px;
+}
+.thumbnail1{
+    width: 200px;
+    height:250px;
+    float:left;
+    margin-left: 100px;
+
+}
+.thumbnail2{
+    width: 200px;
+    height:250px;
+    float:left;
+    margin-left:180px;
+
+}
+.thumbnail3{
+    width: 200px;
+    height:250px;
+    float:left;
+    margin-left:180px;
+
+}
+.overflow {
+    font-size: 24px;
+    color: #2b85e4;
+    text-align: center;
+    text-decoration: none;
+}
+td{
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.div-img img{
+    height: 360px;
+    width: 360px;
 }
