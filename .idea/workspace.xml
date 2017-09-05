@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f15118-475c-48a5-b878-4ab8485c7c70" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html" afterPath="$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html" />
     </list>
     <ignored path="F:/iworkspace/seek/out/" />
     <ignored path="F:/iworkspace/seek/target/" />
@@ -21,17 +22,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Brief_Introduction.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Brief_Introduction.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2435">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="279">
+              <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -109,8 +110,8 @@
         <option value="F:/iworkspace/seek/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/Brief-Introduction.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html" />
       </list>
     </option>
   </component>
@@ -244,8 +245,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/iworkspace/seek" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/css/Brief-Introduction.css" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/webapp/css/Brief-Introduction.css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -759,7 +761,7 @@
       <workItem from="1504252338737" duration="795000" />
       <workItem from="1504491845901" duration="13396000" />
       <workItem from="1504525304769" duration="94000" />
-      <workItem from="1504578995954" duration="1281000" />
+      <workItem from="1504578995954" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="未完成版">
       <created>1503886525317</created>
@@ -831,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504591003735</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="创建分支">
+      <created>1504591011086</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1504591011086</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61063000" />
+    <option name="totallyTimeSpent" value="61894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1041,14 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2435">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/Brief-Introduction.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-644">
@@ -1063,6 +1064,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
           <folding />
         </state>
       </provider>
