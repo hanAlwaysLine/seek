@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f15118-475c-48a5-b878-4ab8485c7c70" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/hyx_studentShow.css" afterPath="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/hyx_studentShow.css" />
     </list>
     <ignored path="$PROJECT_DIR$/../../iworkspace/seek/out/" />
     <ignored path="$PROJECT_DIR$/../../iworkspace/seek/target/" />
@@ -13,113 +14,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WifeAction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WifeAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
-              <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="186">
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
-                <marker date="1503974339488" expanded="true" signature="87081:87098" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87081:87116" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87081:87129" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87081:87144" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87179:89474" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87192:89459" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87246:87635" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87265:87620" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87383:87600" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87423:87566" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87444:87544" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87685:87994" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87704:87979" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87781:87959" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87821:87925" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="87842:87903" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88045:88310" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88064:88295" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88097:88275" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88137:88241" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88158:88219" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88353:88659" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88372:88644" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88446:88624" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88486:88590" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88507:88568" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88710:89056" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88729:89041" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88804:89021" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88844:88987" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="88865:88965" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="89108:89445" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="89127:89430" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="89232:89410" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="89272:89376" ph="..." />
-                <marker date="1503974339488" expanded="true" signature="89293:89354" ph="..." />
+                <marker date="1504598173298" expanded="false" signature="1129:1132" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wife.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/bean/Wife.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WifeMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyx_studentShow.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/hyx_studentShow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -128,8 +72,41 @@
       <file leaf-file-name="WifeMapperService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="304">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1504598173298" expanded="true" signature="737:744" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-251">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+              <folding>
+                <element signature="e#1601#1622#0" expanded="true" />
+                <element signature="e#1660#1677#0" expanded="true" />
+                <element signature="e#1720#1734#0" expanded="true" />
+                <element signature="e#1777#1795#0" expanded="true" />
+                <element signature="e#1864#1885#0" expanded="true" />
+                <element signature="e#1954#1975#0" expanded="true" />
+                <element signature="e#2046#2063#0" expanded="true" />
+                <element signature="e#2132#2157#0" expanded="true" />
+                <marker date="1504598009617" expanded="true" signature="4267:4298" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,12 +115,37 @@
       <file leaf-file-name="WifeMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="171">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
-                <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
+                <marker date="1504598173308" expanded="true" signature="533:551" ph="select * fro... wife" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2565">
+              <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+              <folding>
+                <marker date="1504598009577" expanded="true" signature="5520:5569" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -154,16 +156,22 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../iworkspace/seek" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../../iworkspace/seek" value="master" />
       </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="GradleLocalSettings">
@@ -176,22 +184,25 @@
       <list>
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/test/Test.java" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/pom.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/bean/Wife.java" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapping/UserMapper.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapper/WifeMapper.java" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapperservice/WifeMapperService.java" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/action/WifeAction.java" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapping/WifeMapper.xml" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/bean/Wife.java" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java" />
-        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/Configuration.xml" />
         <option value="$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/sfds/asdw" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/pom.xml" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java" />
+        <option value="$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/hyx_studentShow.css" />
       </list>
     </option>
   </component>
@@ -220,6 +231,34 @@
           <option name="myItemId" value="seek Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="seek Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="seek Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
@@ -245,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,11 +377,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -360,14 +400,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,29 +427,32 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../iworkspace/seek" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\iworkspace\seek\src\cn\manage\mapping" />
-      <recent name="F:\iworkspace\seek\src\main\java\cn\manage\mapping" />
-      <recent name="F:\iworkspace\seek\src\main\resources" />
-      <recent name="F:\iworkspace\seek\src" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\css" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\image" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\js" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\vujs" />
+      <recent name="F:\iworkspace\seek\src\main\webapp\WEB-INF\front" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -767,6 +802,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -923,7 +980,13 @@
       <workItem from="1503624241638" duration="13104000" />
       <workItem from="1503737387895" duration="1030000" />
       <workItem from="1503885920426" duration="11019000" />
-      <workItem from="1503972711005" duration="1810000" />
+      <workItem from="1503972711005" duration="1879000" />
+      <workItem from="1503974700336" duration="12074000" />
+      <workItem from="1504064695643" duration="10248000" />
+      <workItem from="1504146170065" duration="195000" />
+      <workItem from="1504232049780" duration="2969000" />
+      <workItem from="1504490007877" duration="11954000" />
+      <workItem from="1504575874694" duration="8909000" />
     </task>
     <task id="LOCAL-00001" summary="未完成版">
       <created>1503886525317</created>
@@ -1030,25 +1093,151 @@
       <option name="project" value="LOCAL" />
       <updated>1503974000958</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="创建分支">
+      <created>1503974577781</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1503974577781</updated>
+    </task>
+    <task id="LOCAL-00017" summary="创建分支">
+      <created>1503974938119</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1503974938119</updated>
+    </task>
+    <task id="LOCAL-00018" summary="创建文件夹">
+      <created>1503975778467</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1503975778467</updated>
+    </task>
+    <task id="LOCAL-00019" summary="创建文件夹">
+      <created>1503976059702</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1503976059702</updated>
+    </task>
+    <task id="LOCAL-00020" summary="创建分支">
+      <created>1503982717857</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1503982717857</updated>
+    </task>
+    <task id="LOCAL-00021" summary="创建文件夹">
+      <created>1503986263190</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503986263190</updated>
+    </task>
+    <task id="LOCAL-00022" summary="创建文件夹">
+      <created>1503986699702</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1503986699702</updated>
+    </task>
+    <task id="LOCAL-00023" summary="创建文件夹">
+      <created>1503988179437</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1503988179437</updated>
+    </task>
+    <task id="LOCAL-00024" summary="创建文件夹">
+      <created>1503988280643</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503988280643</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ff">
+      <created>1503988350764</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1503988350764</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ff">
+      <created>1503988911920</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1503988911920</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ff">
+      <created>1503989144697</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1503989144697</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ff">
+      <created>1503989503267</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1503989503267</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ff">
+      <created>1503989565644</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1503989565644</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ff">
+      <created>1503989748964</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1503989748964</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ff">
+      <created>1504065336057</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1504065336057</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ff">
+      <created>1504513054747</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1504513054747</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ff">
+      <created>1504578587906</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1504578587906</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45109000" />
+    <option name="totallyTimeSpent" value="91527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23039216" sideWeight="0.1172466" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44444445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.016366612" sideWeight="0.13842663" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44353518" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08018155" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1058,11 +1247,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32242227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48772505" sideWeight="0.88275343" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5171849" sideWeight="0.48184568" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016366612" sideWeight="0.8615734" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.204236" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1070,7 +1259,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21732026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5090016" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1108,9 +1297,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="未完成版" />
     <MESSAGE value="创建分支" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建分支" />
+    <MESSAGE value="创建文件夹" />
+    <MESSAGE value="ff" />
+    <option name="LAST_COMMIT_MESSAGE" value="ff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1121,27 +1313,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,114 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <marker date="1503974339488" expanded="true" signature="87081:87098" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87116" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87129" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87144" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87179:89474" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87192:89459" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87246:87635" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87265:87620" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87383:87600" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87423:87566" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87444:87544" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87685:87994" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87704:87979" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87781:87959" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87821:87925" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87842:87903" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88045:88310" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88064:88295" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88097:88275" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88137:88241" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88158:88219" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88353:88659" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88372:88644" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88446:88624" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88486:88590" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88507:88568" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88710:89056" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88729:89041" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88804:89021" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88844:88987" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88865:88965" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89108:89445" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89127:89430" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89232:89410" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89272:89376" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89293:89354" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/bean/Wife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1272,7 +1338,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1504598009577" expanded="true" signature="5520:5569" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,7 +1348,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1504598173298" expanded="false" signature="1129:1132" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,9 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +1365,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
+          <folding>
+            <element signature="e#1601#1622#0" expanded="true" />
+            <element signature="e#1660#1677#0" expanded="true" />
+            <element signature="e#1720#1734#0" expanded="true" />
+            <element signature="e#1777#1795#0" expanded="true" />
+            <element signature="e#1864#1885#0" expanded="true" />
+            <element signature="e#1954#1975#0" expanded="true" />
+            <element signature="e#2046#2063#0" expanded="true" />
+            <element signature="e#2132#2157#0" expanded="true" />
+            <marker date="1504598009617" expanded="true" signature="4267:4298" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,9 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,7 +1412,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1504598009577" expanded="true" signature="5520:5569" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,7 +1429,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#1601#1622#0" expanded="true" />
+            <element signature="e#1660#1677#0" expanded="true" />
+            <element signature="e#1720#1734#0" expanded="true" />
+            <element signature="e#1777#1795#0" expanded="true" />
+            <element signature="e#1864#1885#0" expanded="true" />
+            <element signature="e#1954#1975#0" expanded="true" />
+            <element signature="e#2046#2063#0" expanded="true" />
+            <element signature="e#2132#2157#0" expanded="true" />
+            <marker date="1504598009617" expanded="true" signature="4267:4298" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,7 +1454,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1504598009577" expanded="true" signature="5520:5569" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,7 +1471,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="e#1601#1622#0" expanded="true" />
+            <element signature="e#1660#1677#0" expanded="true" />
+            <element signature="e#1720#1734#0" expanded="true" />
+            <element signature="e#1777#1795#0" expanded="true" />
+            <element signature="e#1864#1885#0" expanded="true" />
+            <element signature="e#1954#1975#0" expanded="true" />
+            <element signature="e#2046#2063#0" expanded="true" />
+            <element signature="e#2132#2157#0" expanded="true" />
+            <marker date="1504598009617" expanded="true" signature="4267:4298" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,34 +1524,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/bean/Wife.java" />
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapperservice/WifeMapperService.java" />
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/action/WifeAction.java" />
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapping/WifeMapper.xml" />
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/java/cn/manage/mapper/WifeMapper.java" />
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <marker date="1503636443500" expanded="true" signature="533:551" ph="select * fro... wife" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/Configuration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1463,80 +1534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <marker date="1503974339488" expanded="true" signature="87081:87098" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87116" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87129" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87081:87144" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87179:89474" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87192:89459" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87246:87635" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87265:87620" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87383:87600" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87423:87566" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87444:87544" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87685:87994" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87704:87979" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87781:87959" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87821:87925" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="87842:87903" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88045:88310" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88064:88295" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88097:88275" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88137:88241" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88158:88219" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88353:88659" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88372:88644" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88446:88624" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88486:88590" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88507:88568" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88710:89056" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88729:89041" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88804:89021" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88844:88987" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="88865:88965" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89108:89445" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89127:89430" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89232:89410" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89272:89376" ph="..." />
-            <marker date="1503974339488" expanded="true" signature="89293:89354" ph="..." />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1544,16 +1545,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/sfds/asdw" />
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/image/test.html" />
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/js/test.html" />
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/vujs/test.html" />
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/fronttest/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/WEB-INF/front/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/test.html" />
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapper/WifeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+          <folding>
+            <marker date="1504598009577" expanded="true" signature="5520:5569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapping/WifeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <marker date="1504598173308" expanded="true" signature="533:551" ph="select * fro... wife" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#1601#1622#0" expanded="true" />
+            <element signature="e#1660#1677#0" expanded="true" />
+            <element signature="e#1720#1734#0" expanded="true" />
+            <element signature="e#1777#1795#0" expanded="true" />
+            <element signature="e#1864#1885#0" expanded="true" />
+            <element signature="e#1954#1975#0" expanded="true" />
+            <element signature="e#2046#2063#0" expanded="true" />
+            <element signature="e#2132#2157#0" expanded="true" />
+            <marker date="1504598009617" expanded="true" signature="4267:4298" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/manage/mapperservice/WifeMapperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1504598173298" expanded="true" signature="737:744" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/cn/action/WifeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="186">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <marker date="1504598173298" expanded="false" signature="1129:1132" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../iworkspace/seek/src/main/webapp/css/hyx_studentShow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
           <folding />
         </state>
       </provider>
