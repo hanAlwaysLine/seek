@@ -26,4 +26,8 @@ public class WifeMapperService {
         int b = 6/0;
        return  a;
     }
+
+    public int deleteWife(int id) {
+        return wifeMapper.deleteWife(id);
+    }
 }

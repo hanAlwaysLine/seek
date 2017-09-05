@@ -12,4 +12,5 @@ import java.util.Map;
 public interface WifeMapper {
     List<Wife> getWife();
     public int saveWife(Map map);
+    public int deleteWife(int id);
 }

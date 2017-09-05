@@ -38,6 +38,10 @@ public class WifeAction extends ActionSupport {
 		return "wife";
 	}
 
+	public int deleteWife() {
+	    return wifeMapperService.deleteWife(1);
+    }
+
 
 
 

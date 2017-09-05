@@ -14,4 +14,8 @@
    <insert id="saveWife" parameterType="java.util.Map">
        insert into wife values(#{id},#{name})
    </insert>
+
+    <delete id="delWife" parameterType="java.lang.Integer">
+        delete from wife where id=#{id}
+    </delete>
 </mapper>

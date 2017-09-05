@@ -23,190 +23,395 @@
 <iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" src="header.html"></iframe>
 <div class="contentStudentShow">
 
-    <div class="contentleft" id="contentleft">
-        <i-menu theme="light" active-name="1" width="150px" @on-select="menu">
-            <Menu-Item name="1">
-                <Icon type="ios-book-outline"></Icon>
-                学员就业
-            </Menu-Item>
-            <Menu-Item name="2">
-                <Icon type="ios-list-outline"></Icon>
-                学习氛围
-            </Menu-Item>
-        </i-menu>
-    </div>
-    <div id="contentright" class="contentright" >
-
-        <div class="box" v-if="seen">
-            <div class="bcon">
-                <h1><b>学员姓名</b><b class="h1b">年龄</b><b class="h1b">学历</b><b class="h1b2">就业单位</b><b class="h1b3">薪资</b>
-                </h1>
-                <div class="list_lh">
-                    <ul>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <a class="pa1">张XX</a>
-                                <a class="pa2">22</a>
-                                <a class="pa3">大专</a>
-                                <a class="pa4">沈阳XXXX有限公司</a>
-                                <a class="pa5">5000</a>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+    <div class="box">
+        <div class="bcon">
+            <h1><b>学员姓名</b><b class="h1b">年龄</b><b class="h1b">学历</b><b class="h1b2">就业单位</b><b class="h1b3">薪资</b>
+            </h1>
+            <div class="list_lh">
+                <ul>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a class="pa1">张XX</a>
+                            <a class="pa2">22</a>
+                            <a class="pa3">大专</a>
+                            <a class="pa4">沈阳XXXX有限公司</a>
+                            <a class="pa5">5000</a>
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
 
-        <div class="students" v-else>
-            <div class="student">
-                <div style="float: left">
-                    <img src="image/study.jpg" class="studentImg">
-                </div>
-                <div class="studentText">
-                    <p class="title">学习氛围</p>
-                    <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
-                </div>
+    <div class="students">
+
+        <div class="student">
+            <div style="float: left">
+                <img src="image/study.jpg" class="studentImg">
             </div>
-            <div class="student">
-                <div style="float: left">
-                    <img src="image/study.jpg" class="studentImg">
-                </div>
-                <div class="studentText">
-                    <p class="title">学习氛围</p>
-                    <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
-                </div>
+            <div class="studentText">
+                <p class="title">学习氛围
+                    <img src="image/new1.png" class="new1">
+                </p>
+                <hr>
+                <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
+            </div>
+        </div>
+        <div class="student">
+            <div style="float: left">
+                <img src="image/study.jpg" class="studentImg">
+            </div>
+            <div class="studentText">
+                <p class="title">学习氛围
+                    <img src="image/new1.png" class="new1">
+                </p>
+                <hr>
+                <a>&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</a>
             </div>
         </div>
     </div>
 </div>
-<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" height="450"
-        src="footer.html"></iframe>
+<div class="container">
+    <div class="cube">
+        <div class="sides">
+            <div class="top"></div>
+            <div class="right"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+    </div>
+</div>
+<canvas id=c></canvas>
+<iframe name="" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="100%" height="450" src="footer.html"></iframe>
 </body>
 <script>
-    var contentleft = new Vue({
-        el: '#contentleft',
-        data: {
-            theme: 'light',
+
+    var w = c.width = window.innerWidth,
+        h = c.height = window.innerHeight,
+        ctx = c.getContext('2d'),
+
+        opts = {
+            people: 15,
+            radius: 200,
+            personFeetDist: 5,
+            personTorsoBaseY: 10,
+            personTorsoFinalY: 20,
+            personArmAttachmentY: 17,
+            personArmLen: 8,
+            personArmAddedAngle: Math.PI / 4,
+            personHeadHalfSide: 4,
+
+            wavyMultiplier: 20,
+            waveAdder: .01,
+
+            moveMultiplier: 8,
+            moveAdder: .005,
+
+            particleFinalTopY: 300,
+            particleText: 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM',
+            unitCharSize: 20,
+            particleBaseTime: 30,
+            particleAddedTime: 30,
+
+            particleSpawnChanceParPerson: 1 / 8,
+
+            focalLength: 250,
+            camera: {
+                x: 0,
+                y: 75,
+                z: 300
+            },
+            vanishPoint: {
+                x: w / 2,
+                y: h / 2
+            },
+
+            rotYvel: .01,
+            templateColor: 'hsl(hue,80%,50%)',
+            templateAlphaColor: 'hsla(hue,80%,50%,alp)'
         },
-        methods: {
-            menu: function (name) {
-                contentright.show(name);
+
+        particles = [],
+        tick = 0,
+
+        tau = Math.PI * 2,
+
+        calc = {
+            baseAng: tau / opts.people,
+            particleSpawnY: opts.personTorsoFinalY + opts.personHeadHalfSide,
+            personHeadFinalY: opts.personTorsoFinalY + 2 * opts.personHeadHalfSide,
+        },
+
+        addedAng = 0,
+        cosAddedAng = 1,
+        sinAddedAng = 0;
+
+    function anim() {
+
+        window.requestAnimationFrame(anim);
+
+        ++tick;
+
+        ctx.fillStyle = '#111';
+        ctx.fillRect(0, 0, w, h);
+
+        addedAng = opts.rotYvel * tick;
+        cosAddedAng = Math.cos(addedAng);
+        sinAddedAng = Math.sin(addedAng);
+
+        var moveAng = opts.moveMultiplier * tick * opts.moveAdder,
+            wavyAng = opts.wavyMultiplier * tick * opts.waveAdder;
+
+        ctx.globalCompositeOperation = 'lighter';
+        ctx.translate(opts.vanishPoint.x, opts.vanishPoint.y);
+
+        for (var i = 0; i < opts.people; ++i) {
+
+            var ang = calc.baseAng * ( i + Math.sin(moveAng + i) / 2 ),
+                renderingAng = ang + addedAng,
+                waveAng = opts.personArmAddedAngle * Math.sin(renderingAng + wavyAng + i),
+
+                cos = Math.cos(renderingAng),
+                sin = Math.sin(renderingAng),
+
+                waveSin = opts.personArmLen * Math.sin(waveAng),
+                waveCos = opts.personArmLen * Math.cos(waveAng),
+
+                rCos = opts.radius * cos,
+                rSin = opts.radius * sin,
+
+                fs = opts.personFeetDist * sin,
+                fc = opts.personFeetDist * cos,
+                hs = opts.personHeadHalfSide * sin,
+                hc = opts.personHeadHalfSide * cos,
+                hsn = rCos - hs,
+                hsp = rCos + hs,
+                hcn = -hc - rSin,
+                hcp = +hc - rSin,
+                ws = waveCos * sin,
+                wc = waveCos * cos,
+                hy = opts.personArmAttachmentY + waveSin,
+
+                f1 = getPerspective(rCos - fs, 0, -fc - rSin),
+                f2 = getPerspective(rCos + fs, 0, +fc - rSin),
+                tb = getPerspective(rCos, opts.personTorsoBaseY, -rSin),
+                tf = getPerspective(rCos, opts.personTorsoFinalY, -rSin),
+                hbl = getPerspective(hsn, opts.personTorsoFinalY, hcn),
+                htl = getPerspective(hsn, calc.personHeadFinalY, hcn),
+                htr = getPerspective(hsp, calc.personHeadFinalY, hcp),
+                hbr = getPerspective(hsp, opts.personTorsoFinalY, hcp),
+                ac = getPerspective(rCos, opts.personArmAttachmentY, -rSin),
+                h1 = getPerspective(rCos + ws, hy, +wc - rSin),
+                h2 = getPerspective(rCos - ws, hy, -wc - rSin);
+
+            ctx.strokeStyle = opts.templateColor.replace('hue', ang / tau * 360);
+            ctx.beginPath();
+            f1.moveTo();
+            tb.lineTo();
+            f2.lineTo();
+            tb.moveTo();
+            tf.lineTo();
+            hbl.lineTo();
+            htl.lineTo();
+            htr.lineTo();
+            hbr.lineTo();
+            tf.lineTo();
+            h1.moveTo();
+            ac.lineTo();
+            h2.lineTo();
+            ctx.stroke();
+
+            if (Math.random() < opts.particleSpawnChanceParPerson)
+                particles.push(new Particle(ang));
+        }
+
+        for (var i = 0; i < particles.length; ++i) {
+
+            particles[i].step();
+
+            if (particles[i].tick >= particles[i].time) {
+                particles.splice(i, 1);
+                --i;
             }
         }
-    })
-    var contentright = new Vue({
-        el: '#contentright',
-        data: {
-            seen: true
-        },
-        methods: {
-            show: function (name) {
-                if (name == '1') {
-                    this.seen = true;
-                } else {
-                    this.seen = false;
-                }
-            }
-        }
+
+        ctx.translate(-opts.vanishPoint.x, -opts.vanishPoint.y);
+        ctx.globalCompositeOperation = 'source-over';
+    }
+
+    function getPerspective(x, y, z) {
+
+        var scale = opts.focalLength / ( z - opts.camera.z );
+
+        return new Point2d(
+            scale * x,
+            scale * ( y - opts.camera.y )
+        )
+    }
+
+    function Point2d(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    Point2d.prototype.moveTo = function () {
+        ctx.moveTo(this.x, this.y);
+    }
+    Point2d.prototype.lineTo = function () {
+        ctx.lineTo(this.x, this.y);
+    }
+
+    function Particle(ang) {
+
+        this.sx = opts.radius * Math.cos(ang);
+        // sy = calc.particleSpawnY
+        this.sz = opts.radius * Math.sin(ang);
+
+        this.dy = Math.random() * opts.particleFinalTopY - calc.particleSpawnY;
+
+        this.ang = ang;
+        this.char = opts.particleText[opts.particleText.length * Math.random() | 0];
+
+        this.time = opts.particleBaseTime + opts.particleAddedTime * Math.random() | 0;
+        this.tick = 0;
+    }
+
+    Particle.prototype.step = function () {
+
+        ++this.tick;
+
+        var proportion = this.tick / this.time,
+            colorAng = this.ang + addedAng,
+            finalAng = colorAng,
+            x = this.sx - this.sx * proportion,
+            y = calc.particleSpawnY + this.dy * proportion,
+            z = this.sz - this.sz * proportion;
+
+        var z1 = z;
+        z = z * cosAddedAng - x * sinAddedAng;
+        x = x * cosAddedAng + z1 * sinAddedAng;
+
+        var scale = opts.focalLength / ( z - opts.camera.z ),
+            charSize = opts.unitCharSize * scale;
+
+        ctx.fillStyle = opts.templateAlphaColor.replace('hue', this.ang / tau * 360).replace('alp', 1 - proportion);
+        ctx.font = charSize + 'px monospace';
+
+        x = scale * x - charSize / 2;
+        y = scale * ( y - opts.camera.y ) - charSize / 2;
+
+        ctx.fillText(this.char, x, y);
+    }
+    anim();
+
+    window.addEventListener('resize', function () {
+
+        w = c.width = window.innerWidth;
+        h = c.height = window.innerHeight;
+
+        opts.vanishPoint.x = w / 2;
+        opts.vanishPoint.y = h / 2;
     })
 </script>
 </html>
