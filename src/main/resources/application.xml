@@ -55,10 +55,33 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <!--所有以get开头的方法都是只读的-->
+            <tx:method name="delete*" propagation="REQUIRED" isolation="DEFAULT" read-only="false"
+                       rollback-for="java.lang.Exception" no-rollback-for="java.lang.RuntimeException"/>
+
+            <tx:method name="update*" propagation="REQUIRED" isolation="DEFAULT" read-only="false" rollback-for="java.lang.Exception"/>
+
+            <tx:method name="get*" read-only="true" isolation="DEFAULT" propagation="SUPPORTS"/>
+            <tx:method name="save*" propagation="REQUIRED" read-only="false" isolation="DEFAULT" rollback-for="java.lang.RuntimeException"/>
+            <!--其他方法使用默认事务策略-->
+            <tx:method name="*" />
+        </tx:attributes>
+    </tx:advice>
+    <!-- AOP配置-->
+    <aop:config>
+        <aop:pointcut id="myPointcut"
+                      expression="execution(* cn.manage.mapperservice.*.*(..))" />
+        <!--将定义好的事务处理策略应用到上述的切入点-->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcut" />
+    </aop:config>
+
+
     <!-- jdbc初始化数据库 -->
-<!--    <jdbc:initialize-database data-source="dataSource" ignore-failures="NONE" enabled="${jdbc.initializedatabase}">
-        <jdbc:script encoding="utf-8" location="/WEB-INF/db-init.sql"/>
-    </jdbc:initialize-database>-->
+    <!--    <jdbc:initialize-database data-source="dataSource" ignore-failures="NONE" enabled="${jdbc.initializedatabase}">
+            <jdbc:script encoding="utf-8" location="/WEB-INF/db-init.sql"/>
+        </jdbc:initialize-database>-->
 
 
 </beans>
