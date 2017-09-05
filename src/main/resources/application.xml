@@ -58,13 +58,13 @@
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <!--所有以get开头的方法都是只读的-->
-            <tx:method name="delete*" propagation="REQUIRED" read-only="false"
+            <tx:method name="delete*" propagation="REQUIRED" isolation="DEFAULT" read-only="false"
                        rollback-for="java.lang.Exception" no-rollback-for="java.lang.RuntimeException"/>
 
-            <tx:method name="update*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception"/>
+            <tx:method name="update*" propagation="REQUIRED" isolation="DEFAULT" read-only="false" rollback-for="java.lang.Exception"/>
 
-            <tx:method name="get*" read-only="true" propagation="SUPPORTS"/>
-            <tx:method name="save*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.RuntimeException"/>
+            <tx:method name="get*" read-only="true" isolation="DEFAULT" propagation="SUPPORTS"/>
+            <tx:method name="save*" propagation="REQUIRED" read-only="false" isolation="DEFAULT" rollback-for="java.lang.RuntimeException"/>
             <!--其他方法使用默认事务策略-->
             <tx:method name="*" />
         </tx:attributes>
