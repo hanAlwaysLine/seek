@@ -95,7 +95,11 @@ li{
     height: 50px;
 }
 
-
+.broundGG {
+    width: 100%;
+    height: 2200px;
+    background-image: url("../image/z-d.jpg");
+}
 
 
 
