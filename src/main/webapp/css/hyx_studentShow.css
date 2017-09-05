@@ -39,7 +39,7 @@ a {
 
 .box {
     width: 980px;
-    margin: 0 auto;
+    margin-left: 175px;
 }
 
 .bcon {
@@ -149,7 +149,7 @@ b {
 
 .students {
     width: 980px;
-    margin: 0 auto;
+    margin-left: 200px;
 }
 
 .student {
@@ -218,10 +218,11 @@ canvas {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    float: right;
+    float: left;
+    position: fixed;
     width: 100px;
     height: 100px;
-    margin: -250px 109px 0px 0px;
+    margin-top: 160px;
 }
 
 @-webkit-keyframes rotate {
