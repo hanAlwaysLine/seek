@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f15118-475c-48a5-b878-4ab8485c7c70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/image/z-d.jpg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/image/z-a.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/image/z-c.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/image/z-z.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seek_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seek_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/training.html" afterPath="$PROJECT_DIR$/src/main/webapp/training.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/training1.html" afterPath="$PROJECT_DIR$/src/main/webapp/training1.html" />
     </list>
     <ignored path="D:/iworkspace/seek/out/" />
     <ignored path="D:/iworkspace/seek/target/" />
@@ -34,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/training.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="training1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/training1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
@@ -64,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zj_trianing.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="167">
+              <caret line="90" column="48" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zj_trianing1.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="zj_trianing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zj_trianing1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -161,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/courseDescription.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/Brief-Introduction.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/Brief_Introduction.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/training.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/training1.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css" />
       </list>
     </option>
   </component>
@@ -800,7 +806,7 @@
       <workItem from="1504493174346" duration="17824000" />
       <workItem from="1504532555977" duration="76000" />
       <workItem from="1504577468278" duration="19080000" />
-      <workItem from="1504599328727" duration="1234000" />
+      <workItem from="1504599328727" duration="1818000" />
     </task>
     <task id="LOCAL-00001" summary="未完成版">
       <created>1503886525317</created>
@@ -886,11 +892,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504593970543</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="创建分支+">
+      <created>1504600589128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504600589128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136612000" />
+    <option name="totallyTimeSpent" value="137196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1182,16 +1195,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/image/toop9.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="87" column="22" lean-forward="true" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="167">
+          <caret line="90" column="48" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1199,7 +1204,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/training.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1207,14 +1212,6 @@
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,6 +1228,22 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#ul#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/zj_trianing1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
