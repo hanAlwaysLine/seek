@@ -1,6 +1,4 @@
 package cn.action;
-import cn.manage.bean.Wife;
-import cn.manage.mapperservice.WifeMapperService;
 import com.opensymphony.xwork2.ActionSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace和定义的Mapper接口对应，并实现其中的方法 -->
+<mapper namespace="cn.manage.mapper.AdminMapper">
+    <resultMap type="cn.manage.bean.Admin" id="adminResultMap">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+    </resultMap>
+    <!-- id和mapper接口中的方法名对应，resultMap使用mybatis.xml中的别名 -->
+    <select id="getAdmin" resultMap="adminResultMap">
+       select * from admin
+   </select>
+    <insert id="saveAdmin" parameterType="java.util.Map">
+       insert into admin(id,username,password) values(#{id},#{username},#{password});
+   </insert>
+
+</mapper>

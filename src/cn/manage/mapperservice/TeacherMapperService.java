@@ -1,6 +1,6 @@
 package cn.manage.mapperservice;
-import cn.manage.bean.Wife;
-import cn.manage.mapper.WifeMapper;
+import cn.manage.bean.Teacher;
+import cn.manage.mapper.TeacherMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -13,21 +13,15 @@ import java.util.Map;
  */
 @Service("wifeMapperService")
 @Scope("prototype")
-public class WifeMapperService {
+public class TeacherMapperService {
     @Autowired
-    private WifeMapper wifeMapper;
-    public List<Wife> getWife(){
-        System.out.println("service");
-        return wifeMapper.getWife();
+    private TeacherMapper teacherMapper;
+    public List<Teacher> getWife(){
+        return teacherMapper.getTeacher();
     }
 
     public int saveWife(Map map){
-        int a = wifeMapper.saveWife(map);
-        int b = 6/0;
-       return  a;
+        return teacherMapper.saveTeacher(map);
     }
 
-    public int deleteWife(int id) {
-        return wifeMapper.deleteWife(id);
-    }
 }
