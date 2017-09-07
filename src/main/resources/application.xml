@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:p="http://www.springframework.org/schema/p"
-        xmlns:context="http://www.springframework.org/schema/context"
-        xmlns:tx="http://www.springframework.org/schema/tx"
-        xmlns:aop="http://www.springframework.org/schema/aop"
-        xmlns:jdbc="http://www.springframework.org/schema/jdbc"
-        xsi:schemaLocation="http://www.springframework.org/schema/beans
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd
@@ -16,10 +16,10 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx.xsd
-        " >
+        ">
     <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
     <!-- 采用注解的方式配置bean -->
-    <context:annotation-config />
+    <context:annotation-config/>
     <!-- 配置要扫描的包 -->
     <context:component-scan base-package="*"></context:component-scan>
     <!-- 引入外部属性文件 -->
@@ -41,12 +41,12 @@
     </bean>
     <!-- 配置mybatis的SqlSessionFactoryBean -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
+        <property name="dataSource" ref="dataSource"/>
         <property name="mapperLocations" value="classpath:cn/manage/mapping/*.xml"></property>
     </bean>
     <!-- mapper接口所在包名，Spring会自动查找其下的类 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="cn.manage.mapper" />
+        <property name="basePackage" value="cn.manage.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 
@@ -61,20 +61,21 @@
             <tx:method name="delete*" propagation="REQUIRED" isolation="DEFAULT" read-only="false"
                        rollback-for="java.lang.Exception" no-rollback-for="java.lang.RuntimeException"/>
 
-            <tx:method name="update*" propagation="REQUIRED" isolation="DEFAULT" read-only="false" rollback-for="java.lang.Exception"/>
+            <tx:method name="update*" propagation="REQUIRED" isolation="DEFAULT" read-only="false"
+                       rollback-for="java.lang.Exception"/>
 
             <tx:method name="get*" read-only="true" isolation="DEFAULT" propagation="SUPPORTS"/>
-            <tx:method name="save*" propagation="REQUIRED" read-only="false" isolation="DEFAULT" rollback-for="java.lang.RuntimeException"/>
+            <tx:method name="save*" propagation="REQUIRED" read-only="false" isolation="DEFAULT"
+                       rollback-for="java.lang.RuntimeException"/>
             <!--其他方法使用默认事务策略-->
-            <tx:method name="*" />
+            <tx:method name="*"/>
         </tx:attributes>
     </tx:advice>
     <!-- AOP配置-->
     <aop:config>
-        <aop:pointcut id="myPointcut"
-                      expression="execution(* cn.manage.mapperservice.*.*(..))" />
+        <aop:pointcut id="myPointcut" expression="execution(* cn.manage.mapperservice.*.*(..))"/>
         <!--将定义好的事务处理策略应用到上述的切入点-->
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcut" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcut"/>
     </aop:config>
 
 

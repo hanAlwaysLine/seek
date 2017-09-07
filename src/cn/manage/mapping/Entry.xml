@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
-   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace和定义的Mapper接口对应，并实现其中的方法 -->
 <mapper namespace="cn.manage.mapper.EntryMapper">
-   <resultMap type="cn.manage.bean.Entry" id="entryResultMap">
-        <id property="id" column="id" />
-        <result property="name" column="name" />
-   </resultMap>
-   <!-- id和mapper接口中的方法名对应，resultMap使用mybatis.xml中的别名 -->
-   <select id="getWife" resultMap="wifeResultMap">
-              select * from entry;
+    <resultMap type="cn.manage.bean.Entry" id="entryResultMap">
+        <id property="entryId" column="entry_id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="telephone" column="telephone"/>
+        <result property="school" column="school"/>
+        <result property="qualification" column="qualification"/>
+        <result property="major" column="major"/>
+        <result property="email" column="email"/>
+    </resultMap>
+    <!-- id和mapper接口中的方法名对应，resultMap使用mybatis.xml中的别名 -->
+    <select id="getEntry" resultMap="entryResultMap">
+       select * from entry;
    </select>
-   <insert id="saveWife" parameterType="java.util.Map">
-       insert into wife values(#{id},#{name})
+    <insert id="saveEntry" parameterType="java.util.Map">
+       insert into entry(ENTRY_ID,name,sex,telephone,school,qualification,major,email) values(#{entryId},#{name},#{sex},#{telephone},#{school},#{qualification},#{major},#{email});
    </insert>
 
-    <delete id="delWife" parameterType="java.lang.Integer">
-        delete from wife where id=#{id}
-    </delete>
+
 </mapper>

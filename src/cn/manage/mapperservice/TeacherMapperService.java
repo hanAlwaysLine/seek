@@ -11,16 +11,17 @@ import java.util.Map;
 /**
  * @Service 标注业务层组件，并改为多例模式===@Autowired可以省略getset方法，自动装配组件
  */
-@Service("wifeMapperService")
+@Service("teacherMapperService")
 @Scope("prototype")
 public class TeacherMapperService {
     @Autowired
     private TeacherMapper teacherMapper;
-    public List<Teacher> getWife(){
+
+    public List<Teacher> getTeacher(){
         return teacherMapper.getTeacher();
     }
 
-    public int saveWife(Map map){
+    public int saveTeacher(Map map){
         return teacherMapper.saveTeacher(map);
     }
 

@@ -37,6 +37,20 @@ a {
     float: left;
 }
 
+.hr {
+    background-color: #2db7f5;
+    width: 800px;
+    height: 50px;
+    margin-left: 265px;
+    padding: 5px;
+}
+
+.hr a {
+    margin-left: 280px;
+    font: bold 35px '楷体';
+    color: wheat;
+}
+
 .box {
     width: 980px;
     margin-left: 175px;
@@ -165,7 +179,7 @@ b {
 }
 
 .new1 {
-    margin-left: 100px;
+    margin-left: 96px;
     width: 60px;
     height: 80px;
 }
@@ -192,7 +206,7 @@ b {
     color: gray;
 }
 
-hr {
+.student hr {
     border: 2px dotted;
     margin: 10px 0;
 }
