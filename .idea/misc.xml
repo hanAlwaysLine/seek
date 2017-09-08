@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../../iworkspace/seek" />
     <file type="web" url="file://$PROJECT_DIR$/../../iworkspace/seek" />
+    <file type="web" url="file://$PROJECT_DIR$/../../iworkspace/seek" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
