@@ -13,9 +13,9 @@
     <!--开启感叹号-->
     <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
 
-    <package name="test" namespace="/u" extends="struts-default" >
-        <action name="admin" class="cn.action.AdminAction" >
-
+    <package name="admin_*" namespace="/" extends="struts-default" >
+        <action name="addAdmin" class="cn.action.AdminAction" >
+            <result name="success"></result>
         </action>
     </package>
 

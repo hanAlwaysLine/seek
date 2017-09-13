@@ -3,6 +3,7 @@ package cn.action;
 import cn.manage.bean.Admin;
 import cn.manage.mapperservice.AdminMapperService;
 import com.opensymphony.xwork2.ActionSupport;
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -21,20 +22,21 @@ public class AdminAction extends ActionSupport {
 
     private List<Admin> list = new ArrayList<Admin>();
 
-
     @Override
     public String execute() throws Exception {
-        list = adminMapperService().;
+        SqlSession sqlSession = DBAccess.getSqlSession();
+        adminMapperService = sqlSession.getMapper(AdminMapperService.class);
+        list = adminMapperService.getAdmin();
         System.out.println(list.size());
         return "success";
     }
 
-    public String saveWife() {
+    public String saveAdmin() {
         Map<Object, Object> map = new HashMap<Object, Object>();
         map.put("id", 57);
         map.put("name", "kk");
-        adminMapperService.saveWife(map);
-        return "wife";
+        adminMapperService.saveAdmin(map);
+        return "save success";
     }
 
 
